@@ -1,0 +1,41 @@
+
+
+.redbox {
+    height: 500px;
+    width: 400px;
+    background-color: #ae2029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appname {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    color: white; 
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    background-color: gray;
+    border: none;
+    border-radius: 30px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 350px;
+}
