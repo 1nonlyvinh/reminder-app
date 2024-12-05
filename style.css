@@ -1,7 +1,7 @@
 
 
 .redbox {
-    height: 500px;
+    height: 450px;
     width: 400px;
     background-color: #ae2029;
     display: flex;
@@ -34,8 +34,34 @@
 
 input {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 200px;
+    justify-content: center;
+    height: 250px;
     width: 350px;
+    margin-bottom: 20%;
+    top: 27%; 
+    position: absolute;
+}
+
+.button {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10%; 
+}
+
+.leftbutton {
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.rightbutton {
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
 }
