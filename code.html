@@ -13,13 +13,16 @@
             <h1>RemindMe</h1>
         </div>
         <div class="redbox">
-            <input type="text">
+            <div class="display">Reminder:</div>
             <div class="button">
-                <button class="leftbutton"><<</button>
+                <button class="leftbutton" id="right"><<</button>
                 <h2>0</h2>
-                <button class="rightbutton">>></button>
+                <button class="rightbutton" id="left">>></button>
             </div>
-            
+            <div class="reminder-input">
+                <div><input class="new-reminder" id="userinput" type="text"></div>
+                <div><button class="submit" id="addnew">Add</button></div>
+            </div>
         </div>
     </div>
 </body>

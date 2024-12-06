@@ -1,5 +1,4 @@
 
-
 .redbox {
     height: 450px;
     width: 400px;
@@ -7,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .appname {
@@ -14,6 +14,8 @@
     height: 100px;
     background-color: red;
     color: white; 
+    align-items: center;
+    justify-content: center;
 }
 
 .outer-container {
@@ -32,7 +34,7 @@
     transform: translate(-50%, -50%);
 }
 
-input {
+.display {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,17 +43,19 @@ input {
     margin-bottom: 20%;
     top: 27%; 
     position: absolute;
+    background-color: white;
+    border: solid 2px black;
 }
 
 .button {
     height: 100px;
-    width: 250px;
+    width: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom: 10%; 
+    bottom: 25%; 
 }
 
 .leftbutton {
@@ -64,4 +68,27 @@ input {
     height: 30px;
     width: 50px;
     background-color: yellow;
+}
+
+.reminder-input {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: absolute;
+    bottom: 15%;
+    height: 50px;
+    width: 420px;
+}
+
+.new-reminder {
+    height: 25px;
+    width: 240px;
+    background-color: gray;
+}
+
+.submit {
+    height: 32px;
+    width: 70px;
+    background-color: yellow;
+
 }
