@@ -10,18 +10,21 @@
     <div class="outer-container">
         <div class="dropdown"></div>
         <div class="appname">
-            <h1>RemindMe</h1>
+            <h1>RemindMe™</h1>
         </div>
         <div class="redbox">
-            <div class="display">Reminder:</div>
+            <div class="display" id="display-div">Enter a Reminder</div>
             <div class="button">
                 <button class="leftbutton" id="right"><<</button>
-                <h2>0</h2>
+                <h2 id="reminder-number">0</h2>
                 <button class="rightbutton" id="left">>></button>
             </div>
             <div class="reminder-input">
                 <div><input class="new-reminder" id="user-input" type="text"></div>
                 <div><button class="submit" id="add-new">Add</button></div>
+            </div>
+            <div class="clear-div">
+                <div><button class="reset-button" id="reset-list">Reset List</button></div>
             </div>
         </div>
     </div>

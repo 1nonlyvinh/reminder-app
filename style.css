@@ -1,7 +1,7 @@
 
 .redbox {
     height: 450px;
-    width: 400px;
+    width: 420px;
     background-color: #ae2029;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .appname {
-    width: 400px;
+    width: 420px;
     height: 100px;
     background-color: red;
     color: white; 
@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 420px;
     height: 700px;
     background-color: gray;
     border: none;
@@ -95,4 +95,24 @@
 
 button:hover {
     cursor: pointer;
+}
+
+.clear-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    height: 50px;
+    width: 420px;
+}
+
+.reset-button {
+    background-color: gray;
+}
+
+h1 {
+    margin-left: 7%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
