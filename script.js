@@ -1,18 +1,9 @@
-let newreminder = document.getElementById('.userinput');
-const cycleright = document.getElementById('.right');
-const cycleleft = document.getElementById('.left');
-const addnew = document.getElementById('.addnew')
+const usersubmit = document.getElementById('add-new'); 
+let userinput = document.getElementById('user-input');
 
-const reminderArray = [
-    {reminder: newreminder},
-];
-let index = 0; 
+let reminders = []; 
 
-document.querySelector('#cycleleft').addEventListener('click', () => {
-    index++;
-    console.log("cycleleft"); 
-})
 
-document.querySelector('#cycleright').addEventListener('click', () => {
-    index--;
-})
+document.getElementById('add-new').addEventListener('click', () => {
+    console.log('whatsup');
+});
